@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/bernardoteixeira09/RevisaoPrimeiraAPII/issues"
   },
-  "homepage": "https://github.com/bernardoteixeira09/RevisaoPrimeiraAPII#readme",
-  "dependencies": {
-    "express": "^5.2.1"
-  }
+  "homepage": "https://github.com/bernardoteixeira09/RevisaoPrimeiraAPII#readme"
 }
