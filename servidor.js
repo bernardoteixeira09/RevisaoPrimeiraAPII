@@ -10,11 +10,9 @@ let ALUNOS = [
     {id: 5, nome: 'Gustavo', curso: 'Desenvolvimento de Sistemas'},
 ];
 
-app.get('/', (req, res) =>{
-    res.json({
-         message: 'API Alunos funcionando!' 
+app.get('/Alunos',(req, res) =>{
+    res.json(ALUNOS);
     });
-});
 
 const PORTA =3000;
 app.listen(3000, () => {
